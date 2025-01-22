@@ -1,6 +1,6 @@
 {
   "name": "@lp-cli/cli",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "publishConfig": {
     "access": "public"
   },
@@ -19,6 +19,7 @@
   "description": "",
   "dependencies": {
     "@lp-cli/create": "workspace:^",
+    "@lp-cli/generate": "workspace:^",
     "commander": "^13.1.0",
     "fs-extra": "^11.3.0"
   },

@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import create from '@lp-cli/create';
+import generate from '@lp-cli/generate';
 import { Command } from 'commander';
 import fse from 'fs-extra';
 import path from 'node:path';
@@ -15,6 +16,13 @@ program
   .description('创建项目')
   .action(async () => {
     create();
+  });
+
+program
+  .command('generate')
+  .description('生成组件（基于 AI）')
+  .action(async () => {
+    generate();
   });
 
 program.parse();
