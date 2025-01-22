@@ -1,5 +1,11 @@
 # @lp-cli/template-vue
 
+## 1.2.0
+
+### Minor Changes
+
+- 接收项目名称
+
 ## 1.1.0
 
 ### Minor Changes
