@@ -1,5 +1,11 @@
 # @lp-cli/cli
 
+## 0.1.1
+
+### Patch Changes
+
+- @lp-cli/create@0.1.1
+
 ## 0.1.0
 
 ### Minor Changes
